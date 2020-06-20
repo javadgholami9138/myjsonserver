@@ -1,15 +1,20 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    { "id": 1, "title": "Post 1" , "auther_id" : "2" },
+    { "id": 2, "title": "Post 2" , "auther_id" : "1" },
+    { "id": 3, "title": "Post 3" , "auther_id" : "1"}
   ],
    "users": [
-    { "id": 1, "username": "user number 1" },
-    { "id": 2, "username": "user number 2"},
-	{ "id": 3, "username": "user number 3" }
+    { "id": 1, "username": "user number 1" ,"fullname" : "user test 1"},
+    { "id": 2, "username": "user number 2" , "fullname" : "user test 2"},
+    { "id": 3, "username": "user number 3", "fullname" : "user test 3" },
+  ],
+  "authers": [
+    { "id": 1, "name": "auther 1"},
+    { "id": 2, "name": "auther 2"},
+    { "id": 3, "name": "auther 3"},
   ],
   "profile": {
-    "name": "typicode"
+    "name": "javad"
   }
 }
