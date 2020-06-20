@@ -1,14 +1,16 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-	{ "id": 5, "title": "Post 5" }
+    { "id": 1, "title": "Post 1" ,"body" : "body of Post number 1" },
+    { "id": 2, "title": "Post 2" , "body" :"body of Post number 2" },
+    { "id": 3, "title": "Post 3" ,"body" : "body of Post number 3"  },
+	{ "id": 4, "title": "Post 4" ,"body" : "body of Post number 4"  },
+	{ "id": 5, "title": "Post 5" ,"body" : "body of Post number 5"  },
+	{ "id": 6, "title": "Post 6" ,"body" : "body of Post number 6" },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 },
-	{ "id": 3, "body": "some comment", "postId": 2 }
+  "users": [
+    { "id": 1, "username": "user number 1", "userId": 1 },
+    { "id": 2, "username": "user number 2", "userId": 1 },
+	{ "id": 3, "username": "user number 3", "userId": 2 }
   ],
   "profile": {
     "name": "javad"
